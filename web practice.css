@@ -62,7 +62,7 @@ a {
 }
   
 .container:hover .image {
-    opacity: 0.4;
+    opacity: 0;
     background-color: grey;
 }
   
@@ -72,7 +72,7 @@ a {
   
 .text {
     background-color: none;
-    color: rgb(231, 178, 1);
+    color: black;
     font-size: 4vw;
     padding: 30px 32px;
     border-radius: 10px;
@@ -164,6 +164,10 @@ a {
     word-spacing: 10px;
     text-align: left;
 }
+.contact-info a{
+    transition: 0.5s ease;
+}
 .contact-info a:hover{
     color: gold;
+    text-decoration: underline; 
 }
